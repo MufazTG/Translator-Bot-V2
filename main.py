@@ -73,27 +73,27 @@ TRANSLATE_BUTTON = InlineKeyboardMarkup(
 LANGUAGE_BUTTONS = InlineKeyboardMarkup(
     [[
     InlineKeyboardButton("മലയാളം", callback_data="Malayalam"),
-    InlineKeyboardButton("தமிழ்", callback_data="Tamil"),
-    InlineKeyboardButton("हिन्दी", callback_data="Hindi")
+    InlineKeyboardButton("Tamil", callback_data="Tamil"),
+    InlineKeyboardButton("Hindi", callback_data="Hindi")
     ],[
-    InlineKeyboardButton("ಕನ್ನಡ", callback_data="Kannada"),
-    InlineKeyboardButton("తెలుగు", callback_data="Telugu"),
-    InlineKeyboardButton("मराठी", callback_data="Marathi")
+    InlineKeyboardButton("Kannada", callback_data="Kannada"),
+    InlineKeyboardButton("Telugu", callback_data="Telugu"),
+    InlineKeyboardButton("Marathi", callback_data="Marathi")
     ],[
-    InlineKeyboardButton("ગુજરાતી", callback_data="Gujarati"),
-    InlineKeyboardButton("ଓଡ଼ିଆ", callback_data="Odia"),
+    InlineKeyboardButton("Gujarati", callback_data="Gujarati"),
+    InlineKeyboardButton("Odia", callback_data="Odia"),
     InlineKeyboardButton("বাংলা", callback_data="bn")
     ],[
-    InlineKeyboardButton("ਪੰਜਾਬੀ", callback_data="Punjabi"),
-    InlineKeyboardButton("فارسی", callback_data="Persian"),
+    InlineKeyboardButton("Panjabi", callback_data="Punjabi"),
+    InlineKeyboardButton("Persian", callback_data="Persian"),
     InlineKeyboardButton("English", callback_data="English")
     ],[
     InlineKeyboardButton("español", callback_data="Spanish"),
-    InlineKeyboardButton("français", callback_data="French"),
-    InlineKeyboardButton("русский", callback_data="Russian")
+    InlineKeyboardButton("French", callback_data="French"),
+    InlineKeyboardButton("Russian", callback_data="Russian")
     ],[
-    InlineKeyboardButton("עִברִית", callback_data="hebrew"),
-    InlineKeyboardButton("العربية", callback_data="arabic")
+    InlineKeyboardButton("Hebrew", callback_data="hebrew"),
+    InlineKeyboardButton("Arabic", callback_data="arabic")
     ]]
 )
 
